@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/Cart.css"  media="all"/>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+</head>
+<header id="header1" class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark row fixed-top">
+        <!-- Brand -->
+        <a class="navbar-brand col-sm-4" href="#" id="h1">Art Store
+            <span id="span1">Shopping for happiness</span>
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav col-sm-8">
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="Home.php">首页</a>
+            </li>
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="Details.html">详情</a>
+            </li>
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="<?php echo $nbHref1?>"><?php echo $nb1;?></a>
+            </li>
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="Register.php"><?php echo $nb2;?></a>
+            </li>
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="Details.html">发布艺术品</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<form>
+    <label id="pos2">
+        <input type="search" name="googlesearch">
+        <a href="Search.html">
+            <input type="button" value="搜索">
+        </a>
+    </label>
+</form>
+
+<body>
+    <h4>购物车</h4>
+<main id="main1">
+    <div class="div2">
+        <nav>
+            <a href="Details.html">
+                <img src="images/works/square-small/021040.jpg">
+            </a>
+        </nav>
+        <section>
+            <p>Still life with bowl and Fruit</p>
+            <p>Raffaello Santi</p>
+            <span>
+                <button type="button" onclick="" class="btn btn-outline-secondary blueButton">价格:$120.0000</button>
+                <button type="button" onclick="" class="btn btn-outline-secondary redButton">删除</button>
+            </span>
+        </section>
+    </div><hr>
+    <div class="div2">
+        <nav>
+            <a href="Details.html">
+                <img src="images/works/square-small/024020.jpg">
+            </a>
+        </nav>
+        <section>
+            <p>Family of Saltimbanques</p>
+            <p>Raffaello Santi</p>
+            <button type="button" onclick="" class="btn btn-outline-secondary blueButton">价格:$170.0000</button>
+            <button type="button" onclick="" class="btn btn-outline-secondary redButton">删除</button>
+        </section>
+    </div>
+    <div>
+        <button type="button" onclick="alert('结账成功')" class="btn btn-outline-secondary" id="greenButton">结账:290</button>
+    </div>
+</main>
+</body>
+</html>

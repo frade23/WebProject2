@@ -1,0 +1,95 @@
+body{
+    font-family: sans-serif, serif, "Times New Roman";
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+}
+/*标题*/
+#header1{
+    height: 1.5em;
+    padding-left: 0.1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    margin-top: 6em;
+}
+
+#span1{
+    font-style: italic;
+    font-size: small;
+    line-height: 1.5em;
+}
+#pos {
+    line-height: 1.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    float: right;
+}
+/*}*/
+/*header a{*/
+    /*padding-right: 2em;*/
+    /*color: white;*/
+    /*text-decoration:none;*/
+/*}*/
+
+/*header a:hover{*/
+    /*background-color:#FF704D;*/
+    /*text-decoration:underline;*/
+/*}*/
+
+#h1{
+    padding-left: 0.7em;
+}
+
+#pos2{
+    position: absolute;
+    right:200px;
+    top:80px
+}
+
+/*#div1{*/
+    /*background-color: ivory;*/
+    /*padding-bottom: 0.1em;*/
+    /*padding-top: 0.1em;*/
+/*}*/
+
+/*div a{*/
+    /*padding-left: 3em;*/
+    /*padding-right: 3em;*/
+    /*color: gray;*/
+    /*text-decoration:none;*/
+/*}*/
+
+/*div a:hover{*/
+    /*background-color:#FF704D;*/
+    /*text-decoration:underline;*/
+/*}*/
+
+#main1{
+    background-color: whitesmoke;
+    padding: 2em 2em 4em;
+    margin: 1em;
+    height: auto;
+    border: solid lightgrey;
+}
+
+.div2{
+    background-color: antiquewhite;
+    padding: 1em;
+}
+
+main div nav{
+    float: left;
+    padding-right: 2em;
+    padding-top: 1em;
+}
+
+#img{
+    width: 100px;
+    height: 100px;
+}
+#price{
+    float: right;
+    margin-right: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

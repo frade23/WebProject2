@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif, serif, "Times New Roman";
+    padding-left: 5%;
+    padding-right: 5%;
+    background: white;
+}
+/*标题*/
+#header1{
+    height: 1.5em;
+    margin-top: 6em;
+}
+
+#span1{
+    font-style: italic;
+    font-size: small;
+    line-height: 1.5em;
+}
+
+#pos{
+    line-height: 1.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    float: right;
+}
+
+header a{
+    padding-right: 2em;
+    color: white;
+    text-decoration:none;
+}
+
+#h1{
+    padding-left: 0.7em;
+}
+
+#pos2{
+    position: absolute;
+    right:150px;
+    top:80px
+}
+
+#add{
+    float: right;
+    margin-top: 1em;
+}
+
+#button2{
+    float: right;
+    margin-top: 1em;
+}
+
+#div1{
+    background-color: ivory;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+    margin-bottom: 2em;
+}
+
+#div2{
+    background-color: #e0ffff;
+    padding: 1em;
+    margin-right: 3em;
+    float: left;
+    height: auto;
+}
+
+#button{
+    float: right;
+}
+
+#divx{
+    padding-bottom: 1em;
+}
+
+#text1{
+    background-color: ghostwhite;
+    margin-left: 8px;
+}
+
+#div4{
+    padding: 1em;
+    background-color: antiquewhite;
+    margin-top: 0.5em;
+}
+
+#table{
+    text-align:left;
+    width:100%;
+    height: 10px;
+}
+
+#div5{
+    padding-left: 5em;
+}
+
+#text3{
+    background-color: palegreen;
+    margin-top: 1em;
+}

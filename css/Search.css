@@ -1,0 +1,152 @@
+body{
+    font-family: sans-serif, serif, "Times New Roman";
+    background: white;
+    min-width: 1500px;
+}
+/*标题*/
+#header1{
+    background: black;
+    height: 1.5em;
+    padding-left: 0.1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+#shiftLine{
+    margin-top: 3em;
+}
+
+#h2{
+    font-size: xx-large;
+    line-height: 1.5em;
+}
+
+#span2{
+    font-style: italic;
+    font-size: small;
+    line-height: 1.5em;
+}
+
+#h1{
+    padding-left: 0.7em;
+}
+
+#div1{
+    background-color: ivory;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+    margin-bottom: 2em;
+}
+
+div a{
+    padding-left: 3em;
+    padding-right: 3em;
+    color: gray;
+    text-decoration:none;
+}
+
+div a:hover{
+    background-color:#FF704D;
+    text-decoration:underline;
+}
+
+div span{
+    padding-left: 3em;
+    padding-right: 3em;
+    color: blue;
+}
+
+#h4{
+    margin-left: 295px;
+}
+
+#div2{
+    margin-left: 295px;
+    margin-right: 2em;
+}
+
+.div3{
+    float: left;
+    width: 370px;
+    background-color: antiquewhite;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    margin-right: 1.5em;
+    margin-bottom: 0.1em;
+}
+
+.img1{
+    float: left;
+}
+
+.div4{
+    float: right;
+    padding-left: 80px;
+}
+
+.blueButton {
+    background-color: deepskyblue;
+    border-radius: 12px;
+    margin-right: 2em;
+    margin-left: 3em;
+    width: 100px;
+}
+
+.blueButton:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.div5{
+    float: left;
+    width: 370px;
+    background-color: antiquewhite;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    margin-right: 1.5em;
+    margin-bottom: 0.1em;
+}
+
+.div6{
+    float: right;
+    width: 370px;
+    background-color: antiquewhite;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 0.1em;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin-top: 1em;
+    margin-left: 2.5em;
+}
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: deepskyblue;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid deepskyblue;
+}
+
+ul.pagination li a.active {
+    background-color: deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+}
+
+ul.pagination li a:hover:not(.active) {
+    background-color: deepskyblue;
+    color: white;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/Check.css"  media="all"/>
+    <meta charset="UTF-8">
+    <title>Check</title>
+</head>
+<header id="header1">
+    <nav id="pos">
+        <a href="#">check</a>
+        <a href="Cart.html">购物车</a>
+        <a href="Home.html">登出</a>
+    </nav>
+</header>
+
+<body>
+<h1 id="h1">Art Store</h1>
+<form>
+    <label id="pos2">
+        <input type="search" name="googlesearch">
+        <a href="Search.html">
+            <input type="button" value="搜索">
+        </a>
+    </label>
+</form>
+
+<div id="div1">
+    <p>
+        <a href="Home.html">首页</a>
+        <span>搜索</span>
+        <a href="Details.html">详情</a>
+        <a href="#">发布艺术品</a>
+    </p>
+</div>
+
+<main class="container-fluid">
+    <div class="row">
+        <div id="div2" class="col-sm-2">
+            <p>用户：linchen0715</p>
+            <p>电话：</p>
+            <p>邮箱：</p>
+            <p>地址：</p>
+            <p>余额：9165438</p>
+            <button type="button" class="btn btn-outline-secondary text-center" onclick="alert('充值成功')" id="button">充值缴费</button>
+        </div>
+
+        <div id="divx" class="col-sm-9">
+            <div id="div3">
+                <label>
+                    <textarea rows="8" cols="137"  id="text1" placeholder="我上传的艺术品："></textarea>
+                </label>
+            </div>
+
+            <div id="div4">
+                <p>我购买的艺术品：</p>
+                <table border="1" id="table">
+                    <tr>
+                        <td>订单编号：20160526060</td>
+                        <td>商品名称：Sun of Flowers</td>
+                        <td>订单时间：2016.5.26</td>
+                        <td>订单余额：$400</td>
+                    </tr>
+                    <tr>
+                        <td>订单编号：20160526473</td>
+                        <td>商品名称：Wave</td>
+                        <td>订单时间：2016.5.26</td>
+                        <td>订单余额：$100</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <label>
+                    <textarea rows="8" cols="137" id="text3" placeholder="我卖出的艺术品："></textarea>
+                </label>
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

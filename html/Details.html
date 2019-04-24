@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/Details.css"  media="all"/>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+
+<header id="header1" class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark row fixed-top">
+        <!-- Brand -->
+        <a class="navbar-brand col-sm-4" href="#" id="h1">Art Store
+            <span id="span1">Shopping for happiness</span>
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav col-sm-8">
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="Home.php">首页</a>
+            </li>
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="Details.html">详情</a>
+            </li>
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href=" <?php echo $nbHref1?>"><?php echo $nb1;?></a>
+            </li>
+            <li class="nav-item col-sm-2">
+                <a class="nav-link" href="Register.php"><?php echo $nb2;?></a>
+            </li>
+
+            <!-- Dropdown -->
+            <!--<li class="nav-item dropdown">-->
+            <!--<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">-->
+            <!--Dropdown link-->
+            <!--</a>-->
+            <!--<div class="dropdown-menu">-->
+            <!--<a class="dropdown-item" href="Home.html">首页</a>-->
+            <!--</div>-->
+            <!--</li>-->
+        </ul>
+    </nav>
+    <!--<nav id="pos">-->
+        <!--<h4 id="h4">欢迎来到Art Store</h4>-->
+        <!--<a href="LogIning.html">登录</a>或-->
+        <!--<a href="#" id="a1">注册</a>-->
+        <!--<a href="LogIning.html">未登录</a>-->
+        <!--<a href="Cart.html">购物车</a>-->
+        <!--<a href="Home.html">登出</a>-->
+    <!--</nav>-->
+</header>
+
+<!--<h1 id="h1">Art Store</h1>-->
+<form>
+    <label id="pos2">
+        <input type="search" name="googlesearch">
+        <a href="Search.html">
+            <input type="button" value="搜索">
+        </a>
+    </label>
+</form>
+
+<body class="container-fluid">
+<!--<div id="div1">-->
+    <!--<p>-->
+        <!--<a href="Home.html">首页</a>-->
+        <!--<a href="Search.html">搜索</a>-->
+        <!--<span id="span1">详情</span>-->
+    <!--</p>-->
+<!--</div>-->
+<!--<div class="row">-->
+    <!---->
+<!--</div>-->
+<div class="row">
+
+    <div class="col-sm-4 text-center">
+            <h2 class="pos1">Mother and Child（Olga and Son）</h2>
+            <p class="pos1">By Pablo Picasso</p>
+            <img src="images/works/average/120010.jpg" id="img" class="">
+            <p>The work is amazing but there is no introduction for it</p>
+            <p>price: <span id="font1">100.0000</span></p>
+            <button type="button" onclick="" class="btn btn-outline-secondary">Add to Wish List</button>
+            <button type="button" onclick="alert('商品已添加到购物车')" class="btn btn-outline-secondary">Add to Shopping Cart</button><br></div>
+    <div class="col-sm-4">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th id="caption1">Product Details</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr >
+                <td class="tr1">Date</td>
+                <td class="tr1">1922</td>
+            </tr>
+            <tr>
+                <td class="tr1">Medium</td>
+                <td class="tr1">Oil on canvas</td>
+            </tr>
+            <tr>
+                <td class="tr1">Dimensions</td>
+                <td class="tr1">100 cm X 80 cm</td>
+            </tr>
+            <tr>
+                <td class="tr1">Home</td>
+                <td class="tr1">Boltmore Art Museum</td>
+            </tr>
+            <tr>
+                <td class="tr1">Genres</td>
+                <td class="tr1">Neoclassical</td>
+            </tr>
+            <tr>
+                <td class="tr1">Subjects</td>
+                <td class="tr1">People Family</td>
+            </tr>
+            <tr>
+                <td class="tr1">Heat</td>
+                <td class="tr1">13</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+            <div class="col-sm-2">
+                <table class="table table-bordered text-center">
+                    <thead>
+                    <tr>
+                        <th class="caption2">流行艺术家</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="Search.html">Johannes Vermeer
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Search.html">Raffaello Santi
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Search.html">van Gogh
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Search.html">Piero da Vinci
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Search.html">Claude Monet
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Search.html">Paul Cézanne
+                        </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Search.html">Michelangelo
+                        </a></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered text-center">
+                    <thead>
+                    <tr>
+                        <th class="caption2">流行流派</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Classical</td>
+                    </tr>
+                    <tr>
+                        <td class="tr2">Romantic</td>
+                    </tr>
+                    <tr>
+                        <td class="tr2">Criticize</td>
+                    </tr>
+                    <tr>
+                        <td class="tr2">Reality</td>
+                    </tr>
+                    <tr>
+                        <td class="tr2">Beautiful</td>
+                    </tr>
+                    </tbody>
+                </table>
+</div>
+</div>
+</body>
+</html>
